@@ -1,0 +1,7 @@
+{
+  "labels" : [ {
+    "org.kie/addUser" : "process",
+    "org.kie/persistence/proto/addUser.proto" : "H4sIAAAAAAAAAL2RQUsDMRCFz91fMexJC6bYeisLelAQUYTiwVOZNtMlNtkJyVBaxP9usrvtQZHSHjwlZDLfzHsv7hrBLVRQ+sDC43IKhcflGmsCI0p2wgrDErVBhXZlolp4p1Drt0gh/TXOcxAo11wb4SvTaNqqFlVOfxZl5ykeiuzFcANdbe5Yk81r3HXoXx+MzlU8VIvREG4f8zjSMBxB4SjGvHUPgE8oBj3iAzc436tKlKPCEn+Q+Q+GrL6IwiH3zfKp3u9nl+3Ano4WFswW0CdlG8prXidjTumPEkxTQytxfGLvK4WYJPruqGByYj+HWq0Nqc5m1QXYpqGe2qdnEtQoCG5/qeAmDfn6M4F+pX8MoDeQHBp7vv8rE6K8oKMzYugRFg+ESevRNx+nkP5gAwAA",
+    "org.kie/persistence/required" : "true"
+  } ]
+}
