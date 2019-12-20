@@ -136,8 +136,7 @@ public class AddUserTest {
                 .contentType(ContentType.JSON)
                 .body("{}")
             .when()
-                .post(this.path + "/" + id + "/" + taskName + "/" + taskId + "?phase=claim&user=admin1group=MTE")
-                //.post(this.path + "/" + id + "/" + taskName + "/" + taskId + "?phase=claim")
+                .post(this.path + "/" + id + "/" + taskName + "/" + taskId + "?phase=claim&user=admin1&group=MTE")
             .then()
                 .statusCode(200);
     }
