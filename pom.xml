@@ -47,8 +47,24 @@
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
     </dependency>
-    <!-- infinispan -->
+
     <!--dependency>
+      <groupId>org.testcontainers</groupId>
+      <artifactId>testcontainers</artifactId>
+    </dependency-->
+    <dependency>
+      <groupId>org.testcontainers</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <!--dependency>
+      <groupId>org.infinispan</groupId>
+      <artifactId>infinispan-testcontainers</artifactId>
+      <version>0.1</version>
+      <scope>test</scope>
+    </dependency-->
+    <!-- infinispan -->
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-infinispan-client</artifactId>
     </dependency>
@@ -56,7 +72,7 @@
       <groupId>org.kie.kogito</groupId>
       <artifactId>infinispan-persistence-addon</artifactId>
       <version>${kogito.version}</version>
-    </dependency-->
+    </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-kogito</artifactId>

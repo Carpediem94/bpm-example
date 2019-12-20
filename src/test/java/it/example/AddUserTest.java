@@ -4,23 +4,49 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+//import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+/*import org.infinispan.client.hotrod.RemoteCache;
+import org.junit.ClassRule;
+import org.junit.jupiter.api.AfterAll;*/
 import org.junit.jupiter.api.Test;
+/*import org.testcontainers.containers.GenericContainer;
+import org.testcontainers.junit.jupiter.Container;
+import org.testcontainers.junit.jupiter.Testcontainers;*/
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.http.ContentType;
 
 @QuarkusTest
+//@Testcontainers
 public class AddUserTest {
 
     private final String person = "{\"person\" : {\"firstName\" : \"John\", \"lastName\" : \"Doe\", \"email\" : \"j.doe@gmail.com\"}}";
     
     private final String path = "/addUser";
     private final String approveUser = "approveUser";
+
+    /* @ClassRule
+    public static GenericContainer INFINISPAN = 
+        new GenericContainer<>("jboss/infinispan-server:latest")
+            .withExposedPorts(11222)
+            .withEnv("USER", "infinispan")
+            .withEnv("PASS", "infinispan");
+    
+    @AfterAll
+    public static void cleanup() {
+        INFINISPAN_SERVER.stop();
+    }
+
+    @Test
+    public void containerRunTest() {
+        assertTrue(INFINISPAN.isRunning());
+    } */
+
     @Test
     public void testApproveUser() {
         // init task
@@ -39,7 +65,7 @@ public class AddUserTest {
     }
 
     @Test
-    public void refuseUser() {
+    public void testRefuseUser() {
         // init task
         String id = getId();
 
