@@ -163,6 +163,7 @@ public class AddUserTest {
                 .body("{}")
             .when()
                 .post(this.path + "/" + id + "/" + taskName + "/" + taskId + "?phase=claim&user=admin1&group=MTE")
+                //.post(this.path + "/" + id + "/" + taskName + "/" + taskId + "?phase=claim")
             .then()
                 .statusCode(200);
     }
