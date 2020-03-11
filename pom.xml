@@ -75,7 +75,7 @@
       <artifactId>quarkus-keycloak-authorization</artifactId>
     </dependency>
     <!-- kafka -->
-    <!--dependency>
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-reactive-messaging-kafka</artifactId>
     </dependency>
@@ -83,7 +83,7 @@
       <groupId>org.kie.kogito</groupId>
       <artifactId>kogito-events-reactive-messaging-addon</artifactId>
       <version>${kogito.version}</version>
-    </dependency-->
+    </dependency>
     <!-- openapi + swagger interface for developing -->
     <dependency>
       <groupId>io.quarkus</groupId>
