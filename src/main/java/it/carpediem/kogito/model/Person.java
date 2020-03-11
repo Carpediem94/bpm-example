@@ -1,16 +1,10 @@
-package it.example.model;
+package it.carpediem.kogito.model;
 
 public class Person {
-    
+
     private String firstName;
     private String lastName;
     private String email;
-    
-    /* public Person(String firstName, String lastName, int age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    } */
 
     public String getFirstName() {
         return this.firstName;
@@ -35,5 +29,4 @@ public class Person {
     public void setEmail(String email) {
         this.email = email;
     }
-
 }

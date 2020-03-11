@@ -4,19 +4,8 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/security/quarkus-security/1.0.1.Final/quarkus-security-1.0.1.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2/jakarta.enterprise.cdi-api-2.0.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/jakarta/el/jakarta.el-api/3.0.3/jakarta.el-api-3.0.3.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/jakarta/interceptor/jakarta.interceptor-api/1.2.5/jakarta.interceptor-api-1.2.5.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-vertx-core/1.2.0.Final/quarkus-vertx-core-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-core/3.8.4/vertx-core-3.8.4.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-handler-proxy/4.1.42.Final/netty-handler-proxy-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-resolver-dns/4.1.42.Final/netty-resolver-dns-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-codec-dns/4.1.42.Final/netty-codec-dns-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-web/3.8.4/vertx-web-3.8.4.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-web-common/3.8.4/vertx-web-common-3.8.4.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-auth-common/3.8.4/vertx-auth-common-3.8.4.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-bridge-common/3.8.4/vertx-bridge-common-3.8.4.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-resteasy-server-common/1.2.0.Final/quarkus-resteasy-server-common-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-resteasy-common/1.2.0.Final/quarkus-resteasy-common-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
@@ -44,6 +33,9 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/org/jboss/slf4j/slf4j-jboss-logging/1.2.0.Final/slf4j-jboss-logging-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/graalvm/sdk/graal-sdk/19.2.1/graal-sdk-19.2.1.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/wildfly/common/wildfly-common/1.5.0.Final-format-001/wildfly-common-1.5.0.Final-format-001.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/commons-codec/commons-codec/1.13/commons-codec-1.13.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-infinispan-client/1.2.0.Final/quarkus-infinispan-client-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-arc/1.2.0.Final/quarkus-arc-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/arc/arc/1.2.0.Final/arc-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
@@ -106,10 +98,6 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/org/infinispan/protostream/protostream/4.3.1.Final/protostream-4.3.1.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-kogito/1.2.0.Final/quarkus-kogito-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-resteasy-jackson/1.2.0.Final/quarkus-resteasy-jackson-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-jackson/1.2.0.Final/quarkus-jackson-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/jboss/resteasy/resteasy-jackson2-provider/4.4.2.Final/resteasy-jackson2-provider-4.4.2.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/jboss/resteasy/resteasy-jaxb-provider/4.4.2.Final/resteasy-jaxb-provider-4.4.2.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/glassfish/jaxb/jaxb-runtime/2.3.3-b01/jaxb-runtime-2.3.3-b01.jar" enabled="true" runInBatchMode="false"/>
@@ -157,11 +145,42 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/jakarta/json/bind/jakarta.json.bind-api/1.0.2/jakarta.json.bind-api-1.0.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/jboss/resteasy/resteasy-json-p-provider/4.4.2.Final/resteasy-json-p-provider-4.4.2.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/commons-io/commons-io/2.6/commons-io-2.6.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-oidc/1.2.0.Final/quarkus-oidc-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-vertx-core/1.2.0.Final/quarkus-vertx-core-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-core/3.8.4/vertx-core-3.8.4.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-handler-proxy/4.1.42.Final/netty-handler-proxy-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-codec-socks/4.1.42.Final/netty-codec-socks-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-codec-http/4.1.42.Final/netty-codec-http-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-codec-http2/4.1.42.Final/netty-codec-http2-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-resolver/4.1.42.Final/netty-resolver-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-resolver-dns/4.1.42.Final/netty-resolver-dns-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/netty/netty-codec-dns/4.1.42.Final/netty-codec-dns-4.1.42.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-security/1.2.0.Final/quarkus-security-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/jakarta/interceptor/jakarta.interceptor-api/1.2.5/jakarta.interceptor-api-1.2.5.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/smallrye/smallrye-jwt/2.0.12/smallrye-jwt-2.0.12.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/eclipse/microprofile/config/microprofile-config-api/1.3/microprofile-config-api-1.3.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/eclipse/microprofile/jwt/microprofile-jwt-auth-api/1.1.1/microprofile-jwt-auth-api-1.1.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/bitbucket/b_c/jose4j/0.7.0/jose4j-0.7.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-auth-oauth2/3.8.4/vertx-auth-oauth2-3.8.4.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-auth-common/3.8.4/vertx-auth-common-3.8.4.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/vertx/vertx-jwt/3.8.4/vertx-jwt-3.8.4.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-jackson/1.2.0.Final/quarkus-jackson-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-keycloak-authorization/1.2.0.Final/quarkus-keycloak-authorization-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/keycloak/keycloak-adapter-core/8.0.1/keycloak-adapter-core-8.0.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/keycloak/keycloak-core/8.0.1/keycloak-core-8.0.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/keycloak/keycloak-common/8.0.1/keycloak-common-8.0.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/keycloak/keycloak-adapter-spi/8.0.1/keycloak-adapter-spi-8.0.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/keycloak/keycloak-authz-client/8.0.1/keycloak-authz-client-8.0.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/jboss/logging/commons-logging-jboss-logging/1.0.0.Final/commons-logging-jboss-logging-1.0.0.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/quarkus/quarkus-smallrye-openapi/1.2.0.Final/quarkus-smallrye-openapi-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/io/smallrye/smallrye-open-api/1.1.20/smallrye-open-api-1.1.20.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/eclipse/microprofile/openapi/microprofile-openapi-api/1.1.2/microprofile-openapi-api-1.1.2.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/org/eclipse/microprofile/config/microprofile-config-api/1.3/microprofile-config-api-1.3.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.2/jackson-dataformat-yaml-2.10.2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/jboss/shrinkwrap/shrinkwrap-api/1.2.6/shrinkwrap-api-1.2.6.jar" enabled="true" runInBatchMode="false"/>
